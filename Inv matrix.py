@@ -1,12 +1,5 @@
+import typing_extensions
 import numpy as np
-def inv(*args):
-    '''
-    a=np.array([[1, 2], [3, 4]])
-    A=np.matrix(a)
-    print(A,type(A))
-    A.getI
-    '''
-    pass
 #实现键入整个矩阵的过程
 h=int(input("Please input the number of matrix rows"))
 l=int(input("Please input the number of matrix lists"))
@@ -19,4 +12,4 @@ A.shape=(h,l)
 A = A.astype(int)
 A=np.matrix(A)
 print(A.I)
-
+print(type(A))
